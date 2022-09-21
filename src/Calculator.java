@@ -5,6 +5,15 @@ public class Calculator {
     }
     public int subtraction(int x, int y){
         int z = x-y;
-        return z;
+        return x-y;
+    }
+
+    public int multiplication (int x, int y){
+        int z = x*y;
+        return x*y;
+    }
+    public int division (int x, int y){
+        int z = x/y;
+        return x/y;
     }
 }
